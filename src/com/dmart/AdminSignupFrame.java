@@ -8,10 +8,10 @@ import java.io.IOException;
 
 public class AdminSignupFrame extends JFrame {
 
-    private JTextField nameField;
-    private JTextField usernameField;
-    private JPasswordField passwordField;
-    private JTextField gstField;
+    private final JTextField nameField;
+    private final JTextField usernameField;
+    private final JPasswordField passwordField;
+    private final JTextField gstField;
 
     private final String VALID_GST = "22AAAA0000A1Z5";
 

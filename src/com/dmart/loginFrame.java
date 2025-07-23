@@ -94,6 +94,7 @@ public class loginFrame extends JFrame{
         add(createAdminLable);
         add(loginBtn);
 
+
         setVisible(true);
     }
 
